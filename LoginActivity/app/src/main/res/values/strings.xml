@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+    <string name="i_accept_terms_and_conditions">I accept the terms and conditions</string>
+    <string name="email">email</string>
+    <string name="login">Login to this app</string>
+    <string name="submit">Submit</string>
+    <string name="n">/n</string>
+    <string name="succes">You have successfully logged in</string>
+    <string name="phone">Phone</string>
+</resources>

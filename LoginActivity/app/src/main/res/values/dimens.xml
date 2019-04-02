@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space30">30sp</dimen>
+    <dimen name="space16">16sp</dimen>
+    <dimen name="general_padding">30sp</dimen>
+</resources>

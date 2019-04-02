@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My first application</string>
+    <string name="this_is_my_first_textview">This is my first TextView :)</string>
+    <string name="i_am_a_button">i_am_a_button</string>
+    <string name="apasa_l">apasa-l</string>
+    <string name="add_your_email_address">add_your_email_address</string>
+    <string name="i_accept_to_learn_android">I accept to learn Android</string>
+    <string name="notifications">notification</string>
+    <string name="this_is_a_search_view">this_is_a_search_view</string>
+    <string name="hello_java">Hello from Java Code!</string>
+    <string name="error_email_missing">Email missing</string>
+</resources>

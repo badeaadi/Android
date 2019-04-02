@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/colorAccent"
+        android:ellipsize="end"
+        android:padding="@dimen/general_padding"
+        android:text="@string/this_is_my_first_textview"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/android"
+        android:contentDescription="@string/just_an_android" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="@android:dimen/app_icon_size"
+        android:text="@string/button"
+        android:textColor="@android:color/white"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_margin="@dimen/general_padding"
+        android:background="@color/colorAccent"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/add_your_e_mail_address"
+        android:inputType="textEmailAddress"
+
+        android:autofillHints="" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/i_accept_to_learn_android"
+
+        />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+    
+            />
+    
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+
+            />
+
+
+        <RatingBar
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="0.5"
+            />
+
+</LinearLayout>

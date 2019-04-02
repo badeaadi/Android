@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BestLayout</string>
+    <string name="this_is_an_orange_textview">This is an Orange TextView</string>
+    <string name="this_is_a_green_textview">This is a green TextyView</string>
+    <string name="this_is_a_blue_textview">This is a blue textView</string>
+    <string name="this_is_a_button">This is a Button</string>
+    <string name="a_pallete" />
+    <string name="this_is_a_green_button">This is a green button</string>
+    <string name="this_is_an_edittext">This is an editText</string>
+    <string name="this_is_a_new_textedit">This is a new TextEdit</string>
+    <string name="this_is_another_edittext">This is another editText</string>
+    <string name="this_is_a_textedit">This is a textEdit</string>
+    <string name="notify_me">Notify me</string>
+    <string name="autobackup">AutoBackup</string>
+</resources>
